@@ -28,4 +28,4 @@ A Python tool for scanning WordPress websites to identify installed plugins and 
 Run the script with:
 
   ```bash
-  python scanner.py <sites_file> <plugins_file>
+  python main.py <sites_file> <plugins_file>
