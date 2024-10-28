@@ -1,6 +1,8 @@
 python main.py -h
 usage: main.py [-h] [-u <page number>] <sites file> <plugins file>
 
+python main.py list.txt plugins.txt
+
 Scan WordPress-powered websites and identify installed plugins
 
 positional arguments:
