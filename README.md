@@ -19,7 +19,7 @@ A Python tool for scanning WordPress websites to identify installed plugins and 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/0D3V/wp-plugin-scanner.git
+   git clone https://github.com/0D3V/wp-plugin-discovery.git
    cd wp-plugin-Discovery
 ## Usage
 
