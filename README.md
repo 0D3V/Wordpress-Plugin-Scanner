@@ -1,15 +1,31 @@
-python main.py -h
-usage: main.py [-h] [-u <page number>] <sites file> <plugins file>
+# WordPress Plugin Discovery
 
-python main.py list.txt plugins.txt
+A Python tool for scanning WordPress websites to identify installed plugins and update the plugin list from WordPress.org.
 
-Scan WordPress-powered websites and identify installed plugins
+## Features
 
-positional arguments:
-  <sites file>          File with list of websites to scan
-  <plugins file>        File to read/write the list of plugins
+- Validates URLs and checks accessibility
+- Detects installed plugins
+- Multi-threaded scanning
+- Updates plugin list from WordPress.org
 
-options:
-  -h, --help            show this help message and exit
-  -u <page number>, --update <page number>
-                        Update the list of plugins from wordpress.org up to <page number>
+## Requirements
+
+- Python 3.x
+- `lxml` library
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/0D3V/wp-plugin-scanner.git
+   cd wp-plugin-Discovery
+## Usage
+
+### Scan Websites
+
+Run the script with:
+
+  ```bash
+  python scanner.py <sites_file> <plugins_file>
