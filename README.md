@@ -1,4 +1,4 @@
-# WordPress Plugin Discovery
+# WordPress Plugin finder
 
 A Python tool for scanning WordPress websites to identify installed plugins and update the plugin list from WordPress.org.
 
